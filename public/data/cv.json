@@ -1,0 +1,25 @@
+{
+  "name": "Oliver Garderud Williams",
+  "email": "Oliverwgzx90@gmail.com",
+  "phone": "+46 764179340",
+  "address": "Centralvägen 15, 171 68 Solna",
+  "profile": "I am dedicated and meticulous in my work and always strive for development and to create a good working environment for my colleagues. The most important aspect of my job is ensuring that customers who have shopped in our store leave with a positive experience and feel welcome to return. With my 8 years of experience, I have also developed a keen eye for details and the optimization of tasks. I am punctual and reliable. Additionally, I am a very social person and find it easy to establish new connections and relationships.",
+  "workExperience": [
+    {
+      "year": "2016 – Present",
+      "company": "ICA Västermalmsgalleria",
+      "positions": [
+        "Operations Manager: Responsible for overall management",
+        "Cashier Supervisor: Managed checkout and closing registers",
+        "Postal Services: Handling registered mail and packages"
+      ]
+    }
+  ],
+  "education": [
+    "2024-Present: .NET Fullstack Developer, Chas Academy",
+    "2015-2016: Industrial Program, Eberstienska gymnasiet",
+    "2013-2015: Economics Program, Fria Läroverken"
+  ],
+  "skills": ["C#", "JavaScript", "HTML", "CSS"],
+  "languages": ["Swedish (Native)", "English (Fluent)"]
+}
