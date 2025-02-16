@@ -1,6 +1,5 @@
 {
-  "homepage": "https://your-username.github.io/repository-name",
-
+  "homepage": "https://OliverWG-net.github.io/CV-React",
   "name": "cv-portal-lab2",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +7,7 @@
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "node server.js",
     "dev": "vite",
     "test": "jest"
