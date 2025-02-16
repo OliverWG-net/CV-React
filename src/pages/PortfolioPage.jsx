@@ -59,7 +59,6 @@ const descriptionMap = {
         ))}
       </div>
 
-      {/* Modals */}
       {repos.slice(0, 6).map((repo, index) => (
         <div
           key={index}

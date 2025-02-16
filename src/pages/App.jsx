@@ -7,12 +7,14 @@ import AboutPage from "./AboutPage.jsx";
 import Navbar from "../components/Navbar.jsx";
 import CV from "./CV.jsx";
 import Footer from '../components/Footer.jsx'
+import Easter from "../components/EasterEgg.jsx";
 
 export default function App() {
   return (
     <>
       <Navbar />
       <main className="main">
+    <Easter />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cv" element={<CV />} />

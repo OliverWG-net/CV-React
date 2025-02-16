@@ -221,12 +221,13 @@ h2{
   border-radius: 10px;
   margin-bottom: 1.5rem;
   margin-top: 0.5rem;
-  padding: .7rem;
   align-items: center; 
   justify-content: left;
   font-weight: bold;
   font-size: 2rem;
   color:white;
+  margin-left:0.5rem;
+  margin-right: 2rem;;
 
 }
 
