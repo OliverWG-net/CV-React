@@ -20,7 +20,7 @@ const CV = () => {
   if (!cvData) return <p>Loading CV...</p>;
 
   return (
-    <main>
+    <>
       <div className="content-container2">
         <div className="card">
           <div className="cvSection1">
@@ -80,7 +80,7 @@ const CV = () => {
           </div>
         </div>
       </div>
-    </main>
+      </>
   );
 };
 

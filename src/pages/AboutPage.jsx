@@ -2,14 +2,13 @@ import React from 'react';
 
 export default function AboutPage() {
     return(
-        <main>
-        <section/>
-            <h1>Om mig</h1>
-            <p className="aboutMe">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/> Quas amet veniam similique neque, molestias<br/> alias quibusdam tempora accusantium magnam harum voluptatum corporis,<br/> laudantium eos mollitia magni eum non esse sunt?<br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eaque, sapiente, pariatur expedita
-                <br/> iusto excepturi dolorem sint laboriosam culpa adipisci magni corporis totam porro architecto modi.<br/> Minus, reprehenderit. Quas, fugiat.
-            </p>
-        <section/>
-    </main>
+        <>
+            <section className="aboutMeContainer">
+                <img src="Images\snowboard.png" alt="Oliver Garderud Williams" className="aboutImg"/>
+                 <p className="aboutMe">
+                    Jag är en passionerad utvecklare med ett stort intresse för spelutveckling och programmering.<br/> När jag inte sitter framför datorn och kodar, hittar du mig gärna ute i backen på min snowboard.<br/> Jag älskar att utforska nya teknologier och skapa innovativa lösningar,<br/> särskilt inom spel och interaktiva upplevelser.<br/> Kombinationen av kreativitet och teknik driver mig framåt,<br/> och jag strävar alltid efter att utvecklas och lära mig mer.
+                </p>
+            </section> 
+        </>
     )
 }

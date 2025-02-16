@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
-    <main className="main">
       <div className="content-container">
         <section className="backgroundimg sections">
           <h1 className="niceText1">Welcome to My CV Website</h1>
@@ -49,8 +48,7 @@ const Home = () => {
         </section>
 
         <p className="introplacement">Hi, my name is Oliver and I'm 27.</p>
-      </div>
-    </main>
+    </div>
   );
 };
 
