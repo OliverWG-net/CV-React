@@ -409,14 +409,14 @@ div p{
   display:grid;
   grid-template-columns: repeat(5, 20vw);
   grid-template-rows: repeat(5, 20vh);
-  height: auto;
+  height: 98vh;
   width: auto;
 }
 
 .portfolio-img {
   width: 90%;
   height: auto;
-  margin: 20px;
+  padding-left:0 20px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -450,7 +450,7 @@ div p{
 }
 
 .aboutMe{
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   color: white;
   text-shadow: 3px 0px 5px rgba(92, 85, 85, 0.651);
