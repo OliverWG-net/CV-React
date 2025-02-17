@@ -7,11 +7,11 @@ export default function ContactPage() {
         <section className="contactContainer">
             <h1 className="niceText contactName">Oliver Garderud Williams</h1>
                 <p className="niceText contactNr">
-                    +46 764179340<br/><br/><br/>
-                    <a href="mailto:Oliverwgzx90@gmail.com" className="noDeco hover contactMail">Oliverwgzx90@gmail.com</a>
+                    +46 764179340<br/><br/>
+                    <a href="mailto:Oliverwgzx90@gmail.com" className="noDeco hover contactMail">Oliverwgzx90@gmail.com<br/><br/></a>
                 </p>
                     <a href="https://github.com/OliverWG-net" className="noDeco contactGithubA">
-                        <p className="niceText noViewHeight">Github</p>
+                        <p className="niceText noViewHeight"><br/><br/>Github</p>
                         <br/>
                     <img src="Images\Github.png" className="contactGithub" alt="Github"/></a>
         </section>

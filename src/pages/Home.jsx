@@ -38,7 +38,7 @@ const Home = () => {
 
         <section>
           <h2 className="niceText1 hide">Profile</h2>
-          <p className="smallText niceText">
+          <p className="smallText niceText hide">
             I am a dedicated and meticulous worker who always strives to develop and create a good working environment for my colleagues.<br />
             The most important thing in my work is that the customers who have shopped in our store leave and feel that it was a positive experience and that they are welcome back.<br />
             With my 8 years of experience, I have also developed an eye for details and the streamlining of work tasks.<br />
