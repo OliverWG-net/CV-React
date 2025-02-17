@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; url=/CV-React/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; URL=/CV-React/" />
+    <title>Page Not Found</title>
   </head>
   <body>
+    <script>
+      var path = window.location.pathname.replace(/^\/CV-React/, "");
+      window.location.replace("/CV-React" + path);
+    </script>
   </body>
 </html>
