@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Redirect } from "react-router-dom";
 import Home from "./Home.jsx";
 import PortfolioPage from "./PortfolioPage.jsx";
 import ContactPage from "./ContactPage.jsx";
@@ -21,7 +21,7 @@ export default function App() {
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/*" element={<Navigate to="/" />} />
+          <Redirect to="/" />
         </Routes>
       </main>
       <Footer />
